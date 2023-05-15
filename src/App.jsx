@@ -1,8 +1,12 @@
-import { Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 
 export default function App(){
   return (
-    <Container sx={{ border:4 }}>
+    <Container>
+      {/** Componente Box:
+       * Podremos agregar estilos dentro del componente
+      */}
+      <Box sx={{ border:4, p:5 }}> Texto desde el componente Box</Box>
       <h1>App</h1>
       {/** Componente Typography:
        * Le podemos pasar variantes con tamaños como h1, h2, h3 ...
