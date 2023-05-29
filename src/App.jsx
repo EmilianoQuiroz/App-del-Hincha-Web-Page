@@ -1,4 +1,5 @@
 import { Box, Button, Container, Typography } from "@mui/material";
+import AddLocationIcon from '@mui/icons-material/AddLocation';
 
 export default function App(){
   return (
@@ -22,6 +23,21 @@ export default function App(){
       <Typography variant="h4"> Texto desde el componente Tipography</Typography>
       <Typography variant="h5"> Texto desde el componente Tipography</Typography>
       <Button variant = "contained">Material UI</Button>
+      
+      <Button
+      variant="outlined"
+      startIcon={<AddLocationIcon />}
+      >
+        Boton Con icono
+      </Button>
+
+      <Button
+      variant="contained"
+      color="error"
+      endIcon={<AddLocationIcon />}
+      >
+        Boton Con icono
+      </Button>
     </Container>
   )
 }
