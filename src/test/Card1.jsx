@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import { Box, Button, Paper, Typography } from '@mui/material'
 import React from 'react'
 
-const Product = () => {
+const Card1 = () => {
 
     const Img = styled("img")({
         width: "200",
@@ -32,4 +32,4 @@ const Product = () => {
   )
 }
 
-export default Product
+export default Card1
