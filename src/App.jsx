@@ -5,6 +5,8 @@ import { Container} from '@mui/material'
 // import Card1 from './test/Card1'
 // Segunda practica de como hacer una card en Material UI
 // import Card2 from './test/Card2'
+// Menu de Navegacion
+import Navbar from './components/navbar/Navbar'
 
 
 
@@ -15,6 +17,7 @@ const App = () => {
       {/**<Botones />*/}
       {/**<Card1 />*/}
       {/**<Card2 />*/}
+      <Navbar />
     </Container>
   )
 }
